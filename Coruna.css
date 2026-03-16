@@ -1,0 +1,89 @@
+html, body{
+    overflow: hidden;
+    overflow-y: hidden;
+
+}
+body{
+    background-color: #acc6ee;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.owo{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #436a9e;
+    width: 2000px;
+    height: 601px;
+    right: 5px;
+    top: -5px;
+  }
+.uwu{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #acc6ee;
+    width: 2000px;
+    height: 301px;
+    top: 160px;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 2000px;
+    height: 301px;
+    top: 160px;
+}
+.logo img{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: top;
+    width: 20%;
+    height: auto;
+    top: -42%;
+    left: 31%;
+}
+.logo :hover{
+    transition: all 2s ease;
+    transform: scale(256px);
+}
+
+.texto{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #acc6ee;
+    width: 2000px;
+    height: 300px;
+    color: aliceblue !important;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    color: #000000;
+    font-size: 200%;
+    left: 4%;
+    bottom:5%;
+}
+
+.uwu img{
+  width: 20%;
+  position: absolute;
+  align-items: center;
+
+  top: 5%;
+  left: 78%;
+}
+iframe{
+ width: 87%;
+  position:fixed;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  top: 56%;
+  left: 4%;
+  right: 80%;
+  bottom: 95%;
+}

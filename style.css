@@ -1,0 +1,419 @@
+html, body{
+  overflow: hidden; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html{
+  overflow: hidden;
+}
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+menu,
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #acc6ee;
+   max-width: 100%;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.owo{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background-color: #436a9e;
+  width: 1700px;
+  height: 601px;
+}
+
+.men,
+.men * {
+  box-sizing: border-box;
+}
+.men {
+  height: 1017px;
+  position: relative;
+  z-index: 999999;
+}
+.pontevedra {
+  width: 294px;
+  height: 347px;
+  position: absolute;
+  left: 1093px;
+  top: 632px;
+  filter: blur(2px);
+}
+.image-4 {
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.lugo {
+  width: 297px;
+  height: 347px;
+  position: absolute;
+  left: 747px;
+  top: 632px;
+  filter: blur(2px);
+}
+.image-3 {
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.Ourense {
+  width: 297px;
+  height: 347px;
+  position: absolute;
+  left: 400px;
+  top: 632px;
+  filter: blur(2px);
+}
+.image-1 {
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.coru-a {
+  width: 297px;
+  height: 347px;
+  position: absolute;
+  left: 54px;
+  top: 632px;
+  filter: blur(2px);
+}
+.image-2 {
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.rectangle-10 {
+  background: #436a9e;
+  width: 1442px;
+  height: 83px;
+  position: absolute;
+  left: -2px;
+  top: 513px;
+}
+.rectangle-11 {
+  background: #436a9e;
+  width: 1442px;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+  top: -3px;
+}
+.frase-promocional {
+  width: 362px;
+  height: 47px;
+  position: absolute;
+  left: 538px;
+  top: 530px;
+}
+.logo {
+  width: 294.68px;
+  height: 60.64px;
+  position: absolute;
+  left: 16px;
+  top: 8px;
+}
+.b-squeda {
+  width: 181px;
+  height: 47px;
+  position: absolute;
+  left: 1221px;
+  top: 17px;
+  
+}
+.busqueda-boton {
+  background: #ffffff;
+  border-radius: 23.5px;
+  border-style: solid;
+  border-color: #436a9e;
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.busqueda {
+  background: #ffffff;
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #436a9e;
+  border-width: 1px 0 0 0;
+  width: 81.22%;
+  height: 0%;
+  position: absolute;
+  right: 8.84%;
+  left: 9.94%;
+  bottom: 19.15%;
+  top: 80.85%;
+}
+.buscar {
+  color: #436a9e;
+  text-align: left;
+  font-family: "GfsDidot-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 18.78%;
+  left: 36.46%;
+  width: 44.75%;
+  bottom: 29.79%;
+  top: 21.28%;
+  height: 48.94%;
+}
+.lupa {
+  width: 15.47%;
+  height: 28px;
+  position: absolute;
+  right: 67.4%;
+  left: 17.13%;
+  top: 10px;
+  aspect-ratio: 1;
+}
+.frase-central {
+  width: 362px;
+  height: 47px;
+  position: absolute;
+  left: 538px;
+  top: 530px;
+  
+}
+.comienza-tu-aventura {
+  color: #436a9e;
+  text-align: left;
+  font-family: "GfsDidot-Regular", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  position: absolute;
+  right: 14.64%;
+  left: 14.36%;
+  width: 70.99%;
+  bottom: 17.02%;
+  top: 14.89%;
+  height: 68.09%;
+}
+.facebook {
+  width: 3.82%;
+  height: 55.01px;
+  position: absolute;
+  right: 17.78%;
+  left: 78.4%;
+  top: calc(50% - 495.5px);
+  aspect-ratio: 55/55.01;
+}
+.discord {
+  width: 3.82%;
+  height: 55.02px;
+  position: absolute;
+  right: 22.15%;
+  left: 74.03%;
+  top: calc(50% - 495.5px);
+  aspect-ratio: 55/55.02;
+}
+.twitch {
+  width: 3.82%;
+  height: 55.02px;
+  position: absolute;
+  right: 26.53%;
+  left: 69.65%;
+  top: calc(50% - 495.5px);
+
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  aspect-ratio: 55/55.02;
+}
+.vector {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  transform: translate(0px, 0px);
+}
+.layer-1-2 {
+  width: 53.46%;
+  height: 62.37%;
+  position: absolute;
+  right: 23.27%;
+  left: 23.27%;
+  bottom: 13.68%;
+  top: 23.95%;
+  transform: translate(0px, 0px);
+}
+.ig {
+  width: 3.82%;
+  height: 55.02px;
+  position: absolute;
+  right: 30.9%;
+  left: 65.28%;
+  top: calc(50% - 495.5px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  aspect-ratio: 55/55.02;
+}
+.vector2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.group {
+  width: 61.95%;
+  height: 59.31%;
+  position: absolute;
+  right: 19.02%;
+  left: 19.03%;
+  bottom: 20.34%;
+  top: 20.34%;
+  transform: translate(0px, 0px);
+  
+}
+.twitter {
+  width: 3.82%;
+  height: 55.01px;
+  position: absolute;
+  right: 35.28%;
+  left: 60.9%;
+  top: calc(50% - 495.5px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  aspect-ratio: 55/55.01;
+}
+.vector3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.layer-1 {
+  width: 59.73%;
+  height: 55.9%;
+  position: absolute;
+  right: 20.14%;
+  left: 20.13%;
+  bottom: 22.05%;
+  top: 22.05%;
+  transform: translate(0px, 0px);
+  
+}
+.coru-a2 {
+  color: #436a9e;
+  text-align: left;
+  font-family: "GasoekOne-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 168px;
+  top: 908px;
+  width: 256px;
+  height: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.Ourense2 {
+  color: #436a9e;
+  text-align: left;
+  font-family: "GasoekOne-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 518px;
+  top: 908px;
+  width: 256px;
+  height: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.lugo2 {
+  color: #436a9e;
+  text-align: left;
+  font-family: "GasoekOne-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 916px;
+  top: 908px;
+  width: 256px;
+  height: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.pontevedra2 {
+  color: #436a9e;
+  text-align: left;
+  font-family: "GasoekOne-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 1113px;
+  top: 908px;
+  width: 256px;
+  height: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.image-6 {
+  width: 1440px;
+  height: 426px;
+  position: absolute;
+  left: 0px;
+  top: 87px;
+  object-fit: cover;
+}
+
